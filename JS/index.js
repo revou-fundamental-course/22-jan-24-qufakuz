@@ -63,6 +63,9 @@ function kobo1Del(){
     
     image1.style.display = "flex";
     person1.style.display = "flex";
+
+    image1.style.animation = "fade-in 2s";
+    person1.style.animation = "fade-in 2s";
     
     image2.style.display = "none";
     person2.style.display = "none";
@@ -79,6 +82,9 @@ function kobo2Del(){
     
     image2.style.display = "flex";
     person2.style.display = "flex";
+
+    image2.style.animation = "fade-in 2s";
+    person2.style.animation = "fade-in 2s";
     
     image3.style.display = "none";
     person3.style.display = "none";
@@ -94,5 +100,8 @@ function kobo3Del(){
     
     image3.style.display = "flex";
     person3.style.display = "flex";
+
+    image3.style.animation = "fade-in 2s";
+    person3.style.animation = "fade-in 2s";
 }
 
