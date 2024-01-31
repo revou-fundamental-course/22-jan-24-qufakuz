@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries Project</title>
+    <link rel="icon" type="image/jpg" href="assets/gundam.jpg">
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;800&display=swap" rel="stylesheet">
+
+    
+<body>
+    <header>
+        <img id="mob" src="assets/mob.webp">
+            <div class="navDiv" >
+                <a class="nav" id="homeNav" href="#info">Home</a>
+                <a class="nav" id="ourNav" href="#packageTitle">Our Package</a>
+                <a class="nav" id="callNav" href="#end">Call Us</a>
+            </div>
+        <a id="menu" href="#0" ><img  src="assets/menu.svg"></a>
+        
+    </header>
+    <!--home-->
+    <section class="main" id="home">
+        
+        <main class="mainContentTitle" id="info">
+            <h1 id="homeM">Lihatlah Animekmu Jadi Nyata</h1>
+            <p>Menjual berbagai peralatan Jejepangan mulai dari manga,figur,poster,merch dan lainya</p>
+            
+        </main>
+
+        <div id="mainFlex"> 
+            <div class="mainContent1" id="review">
+                <div id="image1">
+                    <img src="assets/kobo.png" width="260" height="200">
+                    <p>"saya beli bazoka kobo disini"</p>
+                </div>
+                <div id="person1">
+                        <img id="kobo" src="assets/bangAl.jpg" width="60" height="60" >
+                        <div>
+                            <p1>Bang Alfachri</p1>
+                            <p2>Strimer tier S 😎</p2>
+                        </div>
+                        
+                </div>
+                <div id="image2">
+                    <img src="assets/windah.png" width="260" height="200">
+                    <p>"Saya membeli peralatan gimmick dari web ini"</p>
+                </div>
+                <div id="person2">
+                        <img id="kobo" src="assets/windahBarusadar.jpg" width="60" height="60" >
+                        <div>
+                            <p1>Bang Windah Batubara</p1>
+                            <p2>Strimer Gosong 🧑🏿</p2>
+                        </div>
+                        
+                </div>
+                <div id="image3">
+                    <img src="assets/lutfi.png" width="260" height="200">
+                    <p>"Saya suka beli baju cosplay di sini"</p>
+                </div>
+                <div id="person3">
+                        <img id="kobo" src="assets/bangUpi.jpg" width="60" height="60" >
+                        <div>
+                            <p1>Bang Lutfi</p1>
+                            <p2>Strimer Kecil 👌</p2>
+                        </div>
+                        
+                </div>
+                
+                
+            </div>
+
+            <form class="mainContent2" id="contact" method="get">
+
+                <p>Contact Us</p>
+                <p1>Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p1>
+                
+                <label for="name">Your Name :</label>
+                <input type="text" id="nameTxt" placeholder=" Your Name" >
+                <label for="name">Email Adress :</label>
+                <input type="email" id="email" placeholder=" name@gmail.com" >
+                <label for="name">What are you interested in?</label>
+                <select name="shopList" id="shopList">
+                    <option value="bazokaKobo">Bazoka Kobo</option>
+                    <option value="wujudKobo">Wujud Aseli Kobo</option>
+                    <option value="gundam">Gundam</option>
+                </select>
+                <h5 id="error"></h5>
+                <button type="submit" id="sendBtn">SEND</button>
+            
+            </form>
+       </div>
+    </section>
+
+    <!--our product-->
+    <section id="package" class="packageClass">
+        
+            <p id="packageTitle">Our Package</p>
+        
+        <div class="row">
+            <div class="packageDiv">
+                <img id="kobo" src="assets/kobo.png" width="100" height="100" >
+                <p1 class="itemName">Bazoka Kobo</p1>
+                <p2 class="itemPrice">Rp10.000.000</p2>
+            </div>
+            <div class="packageDiv">
+                <img id="kobo" src="assets/kobo.png" width="100" height="100" >
+                <p1 class="itemName">Bazoka Kobo</p1>
+                <p2 class="itemPrice">Rp10.000.000</p2>
+            </div>
+            <div class="packageDiv">
+                <img id="kobo" src="assets/kobo.png" width="100" height="100" >
+                <p1 class="itemName">Bazoka Kobo</p1>
+                <p2 class="itemPrice">Rp10.000.000</p2>
+            </div>
+            <div class="packageDiv">
+                <img id="kobo" src="assets/kobo.png" width="100" height="100" >
+                <p1 class="itemName">Bazoka Kobo</p1>
+                <p2 class="itemPrice">Rp10.000.000</p2>
+            </div>
+            <div class="packageDiv">
+                <img id="kobo" src="assets/kobo.png" width="100" height="100" >
+                <p1 class="itemName">Bazoka Kobo</p1>
+                <p2 class="itemPrice">Rp10.000.000</p2>
+            </div>
+            <div class="packageDiv">
+                <img id="kobo" src="assets/kobo.png" width="100" height="100" >
+                <p1 class="itemName">Bazoka Kobo</p1>
+                <p2 class="itemPrice">Rp10.000.000</p2>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="endSection" id="endSectionId">
+        <h1 id="end">Tertarik Membeli Barang Kami?</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus aliquid nulla rem eligendi facere soluta, esse aspernatur, illo ipsam blanditiis sint ab distinctio! Necessitatibus </p>
+        <a href="#" id="orderBtn">Order Now</a>
+    </section>
+
+    <footer>
+        <img id="mobF" src="assets/mob.webp">
+        <div>
+            <label for="Terms of Service">Terms of Service</label>
+            <label for="Privacy Policy">Privacy Policy</label>
+        </div>
+
+        <div>
+            <label for="year">&copy;2045</label>
+            <label for="eCom">Nimek.ID</label>
+        </div>
+    </footer>
+    <script src="JS/index.js"></script>
+    
+</body>
+</html>
