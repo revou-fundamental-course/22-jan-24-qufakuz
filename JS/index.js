@@ -24,18 +24,26 @@ form.addEventListener("submit", (e)=>{
         case(nameInput.value === ""  &&
         emailInput.value === "" ) :
         error.textContent = "Form must fill";
+        e.preventDefault();
         break;
         case(nameInput.value === "" ) :
         error.textContent = "name must fill";
+        e.preventDefault();
         break;
         case(emailInput.value === "" ) :
         error.textContent = "email must fill";
+        e.preventDefault();
         break;
+        case(!(nameInput.value === ""  &&
+        emailInput.value === "" )) :
+        return e;
+        
 
     }
     
 
-    e.preventDefault();
+    
+    
 });
 
 
